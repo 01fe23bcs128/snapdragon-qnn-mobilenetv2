@@ -1,6 +1,2 @@
 qnn_env/
-onnx/
-qnn/
 __pycache__/
-*.bin
-*.so
