@@ -1,0 +1,9 @@
+Model: MobileNetV4 Medium
+
+Parameters: 9.68M
+MACs: ~330M
+FLOPs: ~660M
+
+Input: 224x224
+
+Reference: MobileNetV4 architecture specification

@@ -1,0 +1,10 @@
+Dataset size: 9 images
+
+Top-1 accuracy: ~44%
+Top-5 accuracy: ~78%
+
+Inference device: Snapdragon 7s Gen2
+Backend: QNN CPU
+
+Observation:
+MobileNetV4 performs well on edge device with acceptable prediction accuracy for real-world images.

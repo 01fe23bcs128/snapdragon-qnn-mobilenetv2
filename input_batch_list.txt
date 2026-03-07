@@ -1,0 +1,9 @@
+dataset_raw/car1.raw
+dataset_raw/cat1.raw
+dataset_raw/cat2.raw
+dataset_raw/cat3.raw
+dataset_raw/dog1.raw
+dataset_raw/dog2.raw
+dataset_raw/elephant1.raw
+dataset_raw/mountain1.raw
+dataset_raw/stars1.raw

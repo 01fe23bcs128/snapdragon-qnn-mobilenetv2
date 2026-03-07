@@ -1,0 +1,12 @@
+Device: Snapdragon 7s Gen 2
+Backend: QNN CPU
+Input: 224x224 image
+
+Run1: 0.44s
+Run2: 0.24s
+Run3: 0.25s
+Run4: 0.27s
+Run5: 0.25s
+
+Average latency (excluding warmup): 0.25s
+Throughput: ~4 FPS

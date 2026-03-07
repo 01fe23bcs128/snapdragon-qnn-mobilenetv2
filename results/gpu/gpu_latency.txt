@@ -1,0 +1,13 @@
+Device: Snapdragon 7s Gen 2
+Backend: QNN GPU
+Input: 224x224 image
+
+Run1: 1.50s
+Run2: 1.48s
+Run3: 1.56s
+
+Average latency: 1.51s
+Throughput: ~0.66 FPS
+
+Observation:
+GPU inference slower than CPU for lightweight MobileNet model due to GPU kernel overhead.

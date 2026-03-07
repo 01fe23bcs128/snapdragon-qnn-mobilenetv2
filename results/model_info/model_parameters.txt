@@ -1,0 +1,7 @@
+Model: MobileNetV4 Medium
+
+Total Parameters: 9,681,560
+Total Parameters (Millions): 9.68M
+
+Observation:
+Lightweight CNN architecture suitable for edge/mobile inference.

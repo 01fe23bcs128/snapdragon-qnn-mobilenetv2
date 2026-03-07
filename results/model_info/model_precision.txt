@@ -1,0 +1,8 @@
+Model: MobileNetV4
+Input Shape: 1x3x224x224
+Precision: INT8
+Weights: 8-bit
+Activations: 8-bit
+Bias: 8-bit
+Framework: Qualcomm QNN
+Deployment: Android ARM64 Snapdragon

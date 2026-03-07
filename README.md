@@ -2,17 +2,19 @@
 
 Production-stable pipeline for converting a PyTorch model to Qualcomm QNN format.
 
-## Pipeline
+---
 
-PyTorch 1.13.1  
+## 🔹 Pipeline Overview
+
+PyTorch (1.13.1)  
 → ONNX (opset 13, static shapes)  
 → QNN SDK (AI Engine Direct)  
 → .cpp + .bin  
-→ Snapdragon DSP/NPU Runtime  
+→ Snapdragon DSP / NPU runtime  
 
 ---
 
-## Environment Setup
+## 🔹 Environment Setup
 
 ```bash
 python3 -m venv qnn_env

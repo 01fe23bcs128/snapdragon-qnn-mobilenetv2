@@ -1,0 +1,11 @@
+Model: MobileNetV4 Medium
+
+ONNX Model: onnx/mobilenetv4_medium_fp32.onnx (37 MB)
+QNN Weights: qnn/mobilenetv4.bin (38 MB)
+QNN Graph: qnn/mobilenetv4.cpp (921 KB)
+Android Runtime: libmobilenetv4.so (38 MB)
+
+Observation:
+- ONNX model converted into QNN graph (CPP + BIN)
+- Final deployment artifact compiled into Android shared library (.so)
+- Model precision: INT8 quantized for Snapdragon execution

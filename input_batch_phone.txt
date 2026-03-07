@@ -1,0 +1,9 @@
+car1.raw
+cat1.raw
+cat2.raw
+cat3.raw
+dog1.raw
+dog2.raw
+elephant1.raw
+mountain1.raw
+stars1.raw

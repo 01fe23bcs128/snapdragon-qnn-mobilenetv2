@@ -1,0 +1,42 @@
+PROJECT: Snapdragon Edge AI Deployment
+
+Model
+-----
+Architecture: MobileNetV4 Medium
+Precision: INT8 Quantized
+Input size: 224x224
+Output classes: 1000
+
+Model Complexity
+----------------
+Parameters: 9.68 Million
+ONNX Model Size: 37 MB
+QNN Weights: 38 MB
+Android Shared Library: 38 MB
+
+Hardware
+--------
+Device: POCO X6 5G
+Chipset: Qualcomm Snapdragon 7s Gen2
+CPU: Kryo Octa-core
+GPU: Adreno GPU
+
+Inference Performance
+---------------------
+
+CPU Backend (QNN CPU)
+Latency: ~40 ms per image
+Throughput: ~25 FPS
+100-image runtime: 4.06 sec
+
+GPU Backend (QNN GPU)
+Latency: ~59 ms per image
+Throughput: ~17 FPS
+100-image runtime: 5.88 sec
+
+Observations
+------------
+• MobileNet is lightweight (~9.6M parameters)
+• CPU performs faster due to optimized SIMD execution
+• GPU has kernel launch overhead for small models
+• Snapdragon CPU backend is efficient for lightweight CNNs
