@@ -71,7 +71,7 @@ snapdragon-qnn-mobilenetv2
 
 # Model Architecture
 
-This project uses **MobileNetV2**, a lightweight convolutional neural network designed for **efficient mobile and embedded vision applications**.
+This project uses **MobileNetV4**, a lightweight convolutional neural network designed for **efficient mobile and embedded vision applications**.
 
 Key architectural features include:
 
